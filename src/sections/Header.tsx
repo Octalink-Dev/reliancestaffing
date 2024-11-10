@@ -10,9 +10,7 @@ import { Menu, X } from "lucide-react";
 const navItems = [
   { label: "Home", href: "/" },
   { label: "Jobs", href: "/jobs" },
-  { label: "Agency Staffing", href: "/agency-staffing" },
-  { label: "Locations", href: "#locations" },
-  { label: "About", href: "#about" },
+  { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
 ] as const;
 
@@ -26,10 +24,10 @@ export function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center">
             <Image
-              src="/images/logo.png"
+              src="/images/logo-.png"
               alt="Reliance Staffing"
-              width={120}
-              height={32}
+              width={50}
+              height={50}
               priority
             />
           </Link>
