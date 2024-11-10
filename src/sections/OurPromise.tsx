@@ -30,7 +30,7 @@ export function OurPromise() {
               <p className="text-gray-600 text-lg leading-relaxed">
                 Throughout our company, Reliance Staffing is committed to upholding the highest standards of healthcare recruitment. Whenever we interview a prospective healthcare professional, our team asks: 
                 <span className="block mt-4 text-xl text-[#1AA3B7] font-semibold italic">
-                  "Is this someone I would trust to care for my own family?"
+                &ldquo;Is this someone I would trust to care for my own family?&rdquo;
                 </span>
               </p>
               
