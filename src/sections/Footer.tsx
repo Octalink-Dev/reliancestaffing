@@ -24,7 +24,7 @@ export function Footer() {
           <div>
             <Link href="/" className="block mb-4">
               <Image
-                src="/images/logo-white.png"
+                src="/images/logo-.png"
                 alt="Reliance Staffing"
                 width={120}
                 height={32}
@@ -80,7 +80,7 @@ export function Footer() {
             <ul className="space-y-2">
               <li className="flex items-center text-gray-400">
                 <Phone className="h-5 w-5 mr-2" />
-                0800 123 4567
+                07788 237277
               </li>
               <li className="flex items-center text-gray-400">
                 <Mail className="h-5 w-5 mr-2" />
@@ -88,7 +88,7 @@ export function Footer() {
               </li>
               <li className="flex items-center text-gray-400">
                 <MapPin className="h-5 w-5 mr-2" />
-                London, UK
+                Midlands and Devon, UK
               </li>
             </ul>
           </div>
