@@ -70,11 +70,11 @@ export default function ContactPage() {
                     </h3>
                     <div className="space-y-4">
                       <a 
-                        href="tel:0800 123 4567" 
+                        href="tel:07788 237277" 
                         className="flex items-center text-gray-600 hover:text-cyan-500 transition-colors"
                       >
                         <Phone className="h-5 w-5 mr-3" />
-                        0800 123 4567
+                        07788 237277
                       </a>
                       <a 
                         href="mailto:info@reliancestaffing.co.uk" 
@@ -102,7 +102,7 @@ export default function ContactPage() {
                     </h3>
                     <p className="text-gray-600">
                       24/7 On-Call Support:<br />
-                      0800 999 8888
+                      07788 237277
                     </p>
                   </div>
                 </div>
