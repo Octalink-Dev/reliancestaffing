@@ -77,7 +77,7 @@ export function Header() {
               </Link>
             ))}
             <Button asChild className="w-full mt-4 bg-cyan-500 hover:bg-cyan-600">
-              <Link href="/register">Register Now</Link>
+              <Link href="https://reliancestaffing.20xapp.com/staff/register">Register Now</Link>
             </Button>
           </nav>
         )}

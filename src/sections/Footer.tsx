@@ -50,6 +50,20 @@ export function Footer() {
                 </Link>
               ))}
             </div>
+            {/* ICO Registration */}
+            <div className="mt-6 flex items-center space-x-3">
+              <Image
+                src="/images/ico_logo.png"
+                alt="ICO Registration"
+                width={50}
+                height={50}
+                className="h-12 w-auto"
+              />
+              <div className="text-sm text-gray-400">
+                <p>ICO Registered</p>
+                <p>ZB819749</p>
+              </div>
+            </div>
           </div>
 
           {/* Quick Links */}
@@ -84,11 +98,11 @@ export function Footer() {
               </li>
               <li className="flex items-center text-gray-400">
                 <Mail className="h-5 w-5 mr-2" />
-                info@reliancestaffing.co.uk
+                info@reliancestaffing.com
               </li>
               <li className="flex items-center text-gray-400">
                 <MapPin className="h-5 w-5 mr-2" />
-                Midlands and Devon, UK
+                 Leicester, LE1 5QQ
               </li>
             </ul>
           </div>
@@ -125,7 +139,8 @@ export function Footer() {
             {[
               { label: "Privacy Policy", href: "/privacy" },
               { label: "Terms of Service", href: "/terms" },
-              { label: "Cookie Policy", href: "/cookies" }
+              { label: "Cookie Policy", href: "/cookies" },
+              { label: "Modern Slavery Statement", href: "/modern-slavery" }
             ].map(({ label, href }) => (
               <Link
                 key={href}
